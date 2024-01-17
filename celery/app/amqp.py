@@ -332,7 +332,7 @@ class AMQP:
             'group': group_id,
             'group_index': group_index,
             'retries': retries,
-            'timelimit': [time_limit, soft_time_limit],
+            'timelimit': [soft_time_limit, time_limit],
             'root_id': root_id,
             'parent_id': parent_id,
             'argsrepr': argsrepr,
